@@ -28,6 +28,6 @@ from https://www.dataiku.com/product/get-started/linux/
   DATA_DIR/bin/dss start
 
   <li>Enter the studio</li>
-  Browse to http://<your server address>:11000
+  Browse to http://<your_server_address>:11000
 
 </ol>
