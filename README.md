@@ -29,3 +29,5 @@ from https://www.dataiku.com/product/get-started/linux/
 
   <li>Enter the studio</li>
   Browse to http://<your server address>:11000
+
+</ol>
