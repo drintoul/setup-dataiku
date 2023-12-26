@@ -30,3 +30,6 @@ from https://www.dataiku.com/product/get-started/linux/
   Browse to http://your_server_address:11000
 
 </ol>
+
+crontab -e
+@reboot cd /home/dave && bin/dss start
