@@ -29,7 +29,8 @@ from https://www.dataiku.com/product/get-started/linux/
   <li>Enter the studio</li>
   Browse to http://your_server_address:11000
 
-</ol>
+  <li>Configure crontab to restart dataiku on reboot</li>
+  crontab -e
+  @reboot cd /home/dave && bin/dss start
 
-crontab -e
-@reboot cd /home/dave && bin/dss start
+</ol>
