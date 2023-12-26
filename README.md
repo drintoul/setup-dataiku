@@ -6,7 +6,6 @@ from https://www.dataiku.com/product/get-started/linux/
   <li>Download DSS</li>
   wget https://cdn.downloads.dataiku.com/public/dss/11.3.2/dataiku-dss-11.3.2.tar.gz
 
-  Or, use this direct link.
   DSS works on Ubuntu, Debian, CentOS, RHEL and Amazon Linux. For version details, please see our Requirements page.
   
   <li>Unpack</li>
@@ -31,6 +30,7 @@ from https://www.dataiku.com/product/get-started/linux/
 
   <li>Configure crontab to restart dataiku on reboot</li>
   crontab -e
+  
   @reboot cd /home/dave && bin/dss start
 
 </ol>
