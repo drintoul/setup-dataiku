@@ -1,5 +1,4 @@
 # setup-dataiku
-Setup Dataiku
 
 from https://www.dataiku.com/product/get-started/linux/
 
