@@ -5,7 +5,7 @@ from https://www.dataiku.com/product/get-started/linux/
 
 <ol>
   <li>Download DSS</li>
-  [](wget https://cdn.downloads.dataiku.com/public/dss/11.3.2/dataiku-dss-11.3.2.tar.gz)
+  [Download](wget https://cdn.downloads.dataiku.com/public/dss/11.3.2/dataiku-dss-11.3.2.tar.gz)
 
   Or, use this direct link.
   DSS works on Ubuntu, Debian, CentOS, RHEL and Amazon Linux. For version details, please see our Requirements page.
