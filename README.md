@@ -19,15 +19,14 @@ from https://www.dataiku.com/product/get-started/linux/
   </ul>
 
   <li>Install</li>
-  Launch the installation script. You need to choose:
+  Launch the installation script.
   <ul>
-    <li>A directory where Dataiku DSS will store configuration and data.</li>
-    <li>A base TCP port.</li>
+  <li>sudo -i "/home/dave/dataiku-dss-11.3.2/scripts/install/install-deps.sh"</li>
+  <li>dataiku-dss-11.3.2/installer.sh -d dataiku -p 11000</li>
   </ul>
-  dataiku-dss-11.3.2/installer.sh -d DATA_DIR -p 11000
 
   <li>Start</li>
-  DATA_DIR/bin/dss start
+  dataiku/bin/dss start
 
   <li>Enter the studio</li>
   Browse to http://your_server_address:11000
@@ -35,7 +34,7 @@ from https://www.dataiku.com/product/get-started/linux/
   <li>Configure crontab to restart dataiku on reboot</li>
   <ul>
     <li>crontab -e</li>
-    <li>@reboot cd /home/dave && bin/dss start</li>
+    <li>@reboot cd /home/dave/dataiku && bin/dss start</li>
   </ul>
 
 </ol>
